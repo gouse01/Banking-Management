@@ -1,0 +1,71 @@
+/* ==========================================================
+   SecureBank - Custom Styling
+   ========================================================== */
+
+body {
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* ---------- Auth pages (login / register) ---------- */
+.auth-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    padding: 24px;
+}
+
+.auth-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.auth-card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 36px 32px;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.auth-card-wide {
+    max-width: 480px;
+}
+
+/* ---------- Dashboard cards ---------- */
+.balance-card {
+    background: linear-gradient(135deg, #1f4037, #99f2c8);
+    color: #ffffff;
+}
+
+.balance-card .text-muted {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.balance-card .text-success {
+    color: #ffffff !important;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+}
+
+.table thead {
+    background-color: #f1f3f5;
+}
+
+/* ---------- Responsive tweaks ---------- */
+@media (max-width: 576px) {
+    .auth-card {
+        padding: 24px 20px;
+    }
+}
